@@ -22,6 +22,10 @@ public class User implements Serializable{
 	private List<Post> posts = new ArrayList<>();
 	
 	
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
 	public List<Post> getPosts() {
 		return posts;
 	}
